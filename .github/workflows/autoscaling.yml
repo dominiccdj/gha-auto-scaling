@@ -1,0 +1,12 @@
+name: Autoscaling CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: autoscaling-runner-deployment
+    steps:
+      - name: Sleep for 60s
+        uses: juliangruber/sleep-action@v1
+        with:
+          time: 60s
