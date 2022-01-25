@@ -5,7 +5,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: custom-runner
     steps:
       - name: Sleep for 60s
         uses: juliangruber/sleep-action@v1
