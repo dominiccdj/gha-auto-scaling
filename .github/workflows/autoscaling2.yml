@@ -10,4 +10,4 @@ jobs:
       - name: Sleep for 60s
         uses: juliangruber/sleep-action@v1
         with:
-          time: 60s
+          time: 1060s
