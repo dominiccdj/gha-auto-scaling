@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: autoscaling-runner-deployment
+    runs-on: self-hosted
     steps:
       - name: Sleep for 60s
         uses: juliangruber/sleep-action@v1
