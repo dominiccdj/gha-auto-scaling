@@ -1,4 +1,4 @@
-name: Autoscaling CI
+name: Sleep 60s 1
 
 on: [push]
 
@@ -9,4 +9,4 @@ jobs:
       - name: Sleep for 60s
         uses: juliangruber/sleep-action@v1
         with:
-          time: 1060s
+          time: 60s
